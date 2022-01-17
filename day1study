@@ -46,9 +46,7 @@ javaitcast@qq.com
 		System.out.println('2');
 		
 		System.out.println(true);
-		System.out.println(false);
-		
-		
+		System.out.println(false);	
 	}
 }
 ===============================================================================================================================
