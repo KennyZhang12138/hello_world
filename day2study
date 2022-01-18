@@ -59,4 +59,43 @@ ASCII 值 ：
 乘：*
 除：/
 取模（取余数）mod：%
+===============================================================================================================================
+自增运算符：++
+自减运算符：--
 
+使用方式：
+	1.单独使用：不和其他任何操作混合，自己独立成为一个步骤。
+	2.混合使用：和其他操作混合，例如与赋值混合，或者与打印操作混合等。
+使用区别：
+	1.在单独使用的时候，前++和后++没有任何区别，也就是说：++num = num++，是完全一样的。
+	2.在混合使用的时候，有【重大区别】
+		A.如果前++，那么变量【立刻马上 +1】，然后拿着结果进行使用， 【先加后用】
+		B.如果后++，那么首先使用变量本来的数值，【然后再 +1】，	    【先用后加】
+注意事项：
+      只有变量才能使用自增，自减。常量不可发生改变，所以不能用. 例如：30++（error）
+      
+public class Demo06Operator{
+	public static void main(String[] args){
+		int num1 = 10;
+		System.out.println(num1);//10
+		++num1;
+		System.out.println(num1);//11
+		num1++
+		System.out.println(num1);//12
+		
+		int num2 = 20;
+		System.out.println(++num2); // 21
+		System.out.println(num2); // 21
+		
+		int num3 = 30;
+		System.out.println(num3++); // 30
+		System.out.println(num3); // 31
+		
+		int x = 10;
+		int y = 20;
+		int result = ++x + y--;
+		System.out.println(result); // 31
+		System.out.println(x); //11
+		System.out.println(y); //19
+	}
+}
