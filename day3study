@@ -30,3 +30,39 @@ public class Demo10Operator{
     }
 }
 ====================================================================================================================================
+定义一个method格式：
+public static void 方法名称（）{
+    方法体
+}
+
+方法名称的命名发生：小驼峰式
+方法体：大括号当中可以包含的语句。
+
+public class Demo11Method{
+	public static void main(String[] args){
+		farmer();
+		seller();
+		cook();
+		me();
+	}
+	public static void farmer(){
+		System.out.println("farmer");
+		System.out.println("do");
+		System.out.println("something");
+	}
+	public static void seller(){
+		System.out.println("seller");
+		System.out.println("do");
+		System.out.println("something");
+	}
+	public static void cook(){
+		System.out.println("cook");
+		System.out.println("do");
+		System.out.println("something");
+	}
+	public static void me(){
+		System.out.println("eat");
+	}
+}
+==============================================================================================================================
+
