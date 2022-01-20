@@ -14,11 +14,11 @@ public class Demo02Switch{
 				System.out.println("aa");
 				break;
         
-		  /*case 1:
+		 	/*case 1:
 				System.out.println("bb");
 				break;*/
         
-       case 2:
+       			case 2:
 				System.out.println("bb");
 				break;
 			default:
@@ -26,4 +26,18 @@ public class Demo02Switch{
 				break;
 		}
 	}
+}
+================================================================================================================================
+for loop:
+执行：初始化表达式01 --> boolean表达式02 --> looping stuff03 --> increment表达式04
+
+for（初始化表达式01；boolean表达式02；increment表达式04）{
+	looping stuff03;
+}
+while loop:
+
+初始化语句；
+while（条件判断）{
+	stuff；
+	
 }
