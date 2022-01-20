@@ -39,5 +39,5 @@ while loop:
 初始化语句；
 while（条件判断）{
 	stuff；
-	
+	increament；
 }
